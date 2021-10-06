@@ -1,0 +1,27 @@
+.ad {
+  border: 1px solid #e8e8e8;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsored {
+  flex: 1 1 2.5rem;
+  font-size: 1.3rem;
+  color: #82868b;
+}
+
+.ad > .content {
+  flex: 6 1 15rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.ad > .content > .image {
+  margin-right: 2rem;
+  width: 26rem;
+  height: 15rem;
+  background-color: grey;
+}

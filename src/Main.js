@@ -1,5 +1,6 @@
 import "./App.css";
 import Post from "./Post";
+import Ad from "./Ad";
 
 function Main() {
   return (
@@ -21,7 +22,7 @@ function Main() {
           </div>
 
           <Post />
-          <div className="ad">광고 </div>
+          <Ad />
         </span>
       </div>
     </div>
