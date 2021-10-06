@@ -27,6 +27,22 @@ html {
   display: flex;
   margin-top: 3rem;
   justify-content: center;
+  border: 1px solid black;
+  height: 80vh;
+}
+
+.left_space {
+  border: 1px solid black;
+}
+
+.right_space {
+  border: 1px solid black;
+  margin-left: 2rem;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .login_btn {
@@ -42,6 +58,19 @@ html {
   color: white;
 }
 
+.filter_btn {
+}
+
 .right_space {
   width: 50vw;
+}
+
+.post {
+  border: 1px solid #e8e8e8;
+  margin-bottom: 2rem;
+}
+
+.ad {
+  border: 1px solid #e8e8e8;
+  margin-bottom: 2rem;
 }

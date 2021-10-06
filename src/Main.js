@@ -1,4 +1,5 @@
 import "./App.css";
+import Post from "./Post";
 
 function Main() {
   return (
@@ -11,12 +12,15 @@ function Main() {
 
         <span className="right_space">
           <div className="main_header">
-            <span>오름차순</span>
-            <span>내림차순</span>
-            <button>필터</button>
+            <span id="sort_option">
+              <span id="ascending_order">오름차순</span>
+              <span id="descending_order">내림차순</span>
+            </span>
+
+            <span className="filter_btn">필터</span>
           </div>
 
-          <div className="post">글</div>
+          <Post />
           <div className="ad">광고 </div>
         </span>
       </div>
