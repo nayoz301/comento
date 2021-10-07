@@ -25,3 +25,12 @@
   height: 15rem;
   background-color: grey;
 }
+
+.ad > .content > .writing > .title {
+  font-size: 1.8rem;
+}
+
+.ad > .content > .writing > .desc {
+  font-size: 1.3rem;
+  color: #63696f;
+}
